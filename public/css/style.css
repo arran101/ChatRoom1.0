@@ -1,0 +1,85 @@
+body{
+    font-size: 16px;
+    background-color: rgba(rgb(39, 39, 39), green, blue, alpha);
+}
+
+/**************** index page ***************/
+
+
+/**************** chat page ****************/
+ul{
+    list-style: none;
+}
+
+.all {
+	max-width: 1000px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.header {
+	background: black;
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sidebar{
+    /* padding: 20px 20px 60px; */
+    overflow-y: scroll;
+}
+.sidebarheaders{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#room-name{
+    font-size: 15px;
+}
+
+#users{
+    font-size: 15px;
+    /* this padding is to make the ul line up properly */
+    padding: 0;
+}
+
+.chat-messages {
+	padding: 30px;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+.message{
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: lightgray;
+	border-radius: 5px;
+	overflow-wrap: break-word;
+}
+.meta {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+span {
+	opacity: 0.7;
+}
+
+.chat-msg-container {
+	padding: 20px 30px;
+}
+
+.chat-msg-container form {
+	display: flex;
+}
+
+.chat-msg-container input[type='text'] {
+	font-size: 16px;
+	padding: 5px;
+	height: 40px;
+	flex: 1;
+}
